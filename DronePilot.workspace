@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="DronePilot" Database="" Version="10.0.0">
+  <VirtualDirectory Name="Theoretical Tests">
+    <Project Name="AltitudeMeter" Path="AltitudeMeter/AltitudeMeter.project" Active="No"/>
+    <Project Name="IMU" Path="IMU/IMU.project" Active="Yes"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="AltitudeMeter" ConfigName="Debug"/>
+      <Project Name="IMU" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="AltitudeMeter" ConfigName="Release"/>
+      <Project Name="IMU" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
